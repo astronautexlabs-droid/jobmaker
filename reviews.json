@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Maria Lopez",
+    "company": "Bloom Bakery",
+    "avatar": "ML",
+    "rating": 5,
+    "text": "Absolutely loved working with them! Our new website brought in 3x more online orders within the first month. Professional, fast, and truly listened to what we needed.",
+    "project": "E-commerce Website"
+  },
+  {
+    "id": 2,
+    "name": "James Carter",
+    "company": "Carter Law Group",
+    "avatar": "JC",
+    "rating": 5,
+    "text": "We needed a polished, trustworthy site for our law firm and that's exactly what we got. The attention to detail was impressive — clients constantly compliment our website.",
+    "project": "Business Website"
+  },
+  {
+    "id": 3,
+    "name": "Sofia Reyes",
+    "company": "FitLife Studio",
+    "avatar": "SR",
+    "rating": 5,
+    "text": "From concept to launch in under 2 weeks! The site looks stunning on mobile and desktop. Our class bookings have gone up significantly since the redesign.",
+    "project": "Landing Page Redesign"
+  },
+  {
+    "id": 4,
+    "name": "Daniel Kim",
+    "company": "Rooftop Creative",
+    "avatar": "DK",
+    "rating": 5,
+    "text": "Super easy to communicate with and delivered exactly what we envisioned. The portfolio site they built for us gets compliments from every client we share it with.",
+    "project": "Portfolio Website"
+  },
+  {
+    "id": 5,
+    "name": "Priya Nair",
+    "company": "Nair Consulting",
+    "avatar": "PN",
+    "rating": 5,
+    "text": "I was skeptical about hiring a freelancer but this was the best decision I made. Transparent pricing, zero surprises, and a beautiful end result. Will hire again.",
+    "project": "Corporate Website"
+  },
+  {
+    "id": 6,
+    "name": "Tom & Rachel Briggs",
+    "company": "The Briggs B&B",
+    "avatar": "TB",
+    "rating": 5,
+    "text": "Our little bed and breakfast finally has a website we're proud of! Guests always say they booked because the site felt so warm and inviting. Worth every penny.",
+    "project": "Hospitality Website"
+  }
+]

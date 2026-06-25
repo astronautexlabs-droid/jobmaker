@@ -2,13 +2,322 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourName — Freelance Web Designer</title>
+  <meta name="description"
+    content="Professional freelance web designer creating beautiful, fast, and conversion-focused websites for small businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
+  <!-- ======= NAV ======= -->
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">Your<span>Name</span></a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#quote" class="nav-cta">Get a Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-eyebrow">Available for new projects</div>
+        <h1>Websites that actually <em>grow</em> your business</h1>
+        <p>I design and build fast, beautiful websites for small businesses and startups — from idea to launch,
+          stress-free.</p>
+        <div class="hero-actions">
+          <a href="#quote" class="btn-primary">Get a Free Quote →</a>
+          <a href="#reviews" class="btn-secondary">See Reviews</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="mock-browser">
+          <div class="browser-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <div class="url-bar">yoursite.com</div>
+          </div>
+          <div class="browser-content">
+            <div class="mock-heading"></div>
+            <div class="mock-line w80"></div>
+            <div class="mock-line w60"></div>
+            <div class="mock-line w90"></div>
+            <div class="mock-line w70" style="width:70%"></div>
+            <div class="mock-btn"></div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-card">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">5★</div>
+            <div class="stat-label">Average Rating</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">2wk</div>
+            <div class="stat-label">Avg. Turnaround</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SERVICES ======= -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <div class="section-tag">What I offer</div>
+      <h2 class="section-title">Services built for real businesses</h2>
+      <p class="section-sub">No bloated agency packages. Just clean, effective websites at prices that make sense for
+        growing businesses.</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>Brand New Website</h3>
+          <p>A custom-designed website built from scratch to match your brand, optimized for mobile and search engines.
+          </p>
+          <div class="service-price">Starting at $800</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔄</div>
+          <h3>Website Redesign</h3>
+          <p>Transform your outdated website into a modern, fast, and conversion-focused experience your customers will
+            love.</p>
+          <div class="service-price">Starting at $600</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🛒</div>
+          <h3>E-Commerce Store</h3>
+          <p>Sell online with a clean, trustworthy storefront. Includes product pages, cart, checkout, and payment
+            setup.</p>
+          <div class="service-price">Starting at $1,200</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📄</div>
+          <h3>Landing Page</h3>
+          <p>A high-converting single page to promote a product, service, or event — built to turn visitors into
+            customers.</p>
+          <div class="service-price">Starting at $400</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🛠️</div>
+          <h3>Monthly Maintenance</h3>
+          <p>Keep your site fast, secure, and up to date. Updates, backups, and fixes handled on your behalf every
+            month.</p>
+          <div class="service-price">From $99/month</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔍</div>
+          <h3>SEO Setup</h3>
+          <p>Help your business get found on Google. Includes keyword research, on-page optimization, and speed
+            improvements.</p>
+          <div class="service-price">Starting at $300</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= REVIEWS ======= -->
+  <section class="reviews" id="reviews">
+    <div class="section-inner">
+      <div class="section-tag">Client reviews</div>
+      <h2 class="section-title">Trusted by real businesses</h2>
+      <p class="section-sub">Don't take my word for it — here's what clients say after we've worked together.</p>
+
+      <div id="reviews-loading">Loading reviews…</div>
+      <div class="reviews-grid" id="reviews-grid"></div>
+    </div>
+  </section>
+
+  <!-- ======= QUOTE FORM ======= -->
+  <section class="quote" id="quote">
+    <div class="quote-inner">
+      <div class="quote-info">
+        <div class="section-tag">Work with me</div>
+        <h2 class="section-title">Let's build something great</h2>
+        <p class="section-sub">Tell me about your project and I'll get back to you within 24 hours with a free quote —
+          no pressure, no commitment.</p>
+        <ul class="quote-benefits">
+          <li>
+            <span class="benefit-icon">✓</span>
+            Free consultation and detailed quote
+          </li>
+          <li>
+            <span class="benefit-icon">✓</span>
+            Response within 24 hours, usually faster
+          </li>
+          <li>
+            <span class="benefit-icon">✓</span>
+            No hidden fees — transparent pricing upfront
+          </li>
+          <li>
+            <span class="benefit-icon">✓</span>
+            Revisions included until you're happy
+          </li>
+          <li>
+            <span class="benefit-icon">✓</span>
+            You own 100% of the finished website
+          </li>
+        </ul>
+      </div>
+
+      <div class="quote-form" id="quote-form-wrap">
+        <form action="https://api.web3forms.com/submit" method="POST" id="quote-form">
+          <!-- Web3Forms access key -->
+          <input type="hidden" name="access_key" value="3762c849-c814-4e63-b09c-1774fc00a6ac" />
+          <input type="hidden" name="subject" value="New Quote Request from Portfolio Site" />
+          <input type="hidden" name="redirect" value="" />
+          <input type="checkbox" name="botcheck" style="display:none" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option>Brand New Website</option>
+              <option>Website Redesign</option>
+              <option>E-Commerce Store</option>
+              <option>Landing Page</option>
+              <option>Monthly Maintenance</option>
+              <option>SEO Setup</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="budget">Approximate Budget</label>
+            <select id="budget" name="budget">
+              <option value="">Select a range…</option>
+              <option>Under $500</option>
+              <option>$500 – $1,000</option>
+              <option>$1,000 – $2,500</option>
+              <option>$2,500+</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell me about your project</label>
+            <textarea id="message" name="message"
+              placeholder="What does your business do? What are you looking to achieve with a new website? Any inspiration sites you like?"
+              required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">Send My Request →</button>
+          <p class="form-note">🔒 Your info is safe. I'll never share your details with anyone.</p>
+        </form>
+
+        <div class="form-success" id="form-success">
+          <div class="success-icon">🎉</div>
+          <h3>Message received!</h3>
+          <p>Thanks for reaching out. I'll review your project and get back to you within 24 hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Your<span>Name</span></div>
+      <p>© 2025 YourName. Freelance Web Designer.</p>
+      <p>Made with ☕ &amp; code</p>
+    </div>
+  </footer>
+
+  <!-- ======= SCRIPTS ======= -->
+  <script>
+    // Load reviews from JSON
+    async function loadReviews() {
+      const grid = document.getElementById('reviews-grid');
+      const loading = document.getElementById('reviews-loading');
+
+      try {
+        const res = await fetch('reviews.json');
+        const reviews = await res.json();
+        loading.style.display = 'none';
+
+        reviews.forEach(r => {
+          const stars = '★'.repeat(r.rating) + '☆'.repeat(5 - r.rating);
+          const card = document.createElement('div');
+          card.className = 'review-card';
+          card.innerHTML = `
+            <div class="review-stars">${stars}</div>
+            <p class="review-text">"${r.text}"</p>
+            <div class="review-footer">
+              <div class="review-avatar">${r.avatar}</div>
+              <div>
+                <div class="review-name">${r.name}</div>
+                <div class="review-meta">${r.company} · ${r.project}</div>
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      } catch (err) {
+        loading.textContent = 'Could not load reviews.';
+        console.error(err);
+      }
+    }
+
+    // Show success message after form submit (Web3Forms redirects by default)
+    // This handles the case if you're testing locally or want inline feedback
+    const form = document.getElementById('quote-form');
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const btn = form.querySelector('.form-submit');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+
+      const data = new FormData(form);
+
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: data,
+        });
+        const json = await res.json();
+
+        if (json.success) {
+          form.style.display = 'none';
+          document.getElementById('form-success').style.display = 'block';
+        } else {
+          btn.textContent = 'Something went wrong — try again';
+          btn.disabled = false;
+        }
+      } catch (err) {
+        btn.textContent = 'Network error — try again';
+        btn.disabled = false;
+      }
+    });
+
+    loadReviews();
+  </script>
 </body>
 
 </html>
